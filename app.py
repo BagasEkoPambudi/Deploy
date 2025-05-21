@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
 # Load model
-model = joblib.load("travel_insurance_best_model.pkl")
+model = joblib.load("travel.pkl")
 
 st.title("🧳 Prediksi Klaim Asuransi Perjalanan")
 
