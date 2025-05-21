@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load model
-model = pickle.load("travel.pkl")
+model = pickle.load(open('travel_insurance_best_model.pkl', 'rb'))
 
 st.title("🧳 Prediksi Klaim Asuransi Perjalanan")
 
